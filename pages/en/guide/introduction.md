@@ -2,9 +2,12 @@
 order: 1
 ---
 
+
 # Introduction
 
 _Welcome to Sunshower.io!_  We're excited to have you here.
+
+[[toc]]
 
 ## What is Sunshower.io?
 
@@ -14,7 +17,7 @@ We're quickly adding features, but right now, you can use Sunshower.io to
 - Determine whether the cloud instances you're currently running are correctly sized
 - Trace the history of your cloud expenditures
 - Manage the lifecycle of your cloud instances
-- Group your instances together by metadata <Badge text="incubating" />
+- Group your instances together by metadata <Badge text="incubating"/>
 - Schedule complex operations on groups, systems, or individual instances <Badge text="incubating" />
 - Compare instance classes across regions and clouds <Badge text="incubating" />
 
