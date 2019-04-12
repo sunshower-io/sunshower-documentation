@@ -56,6 +56,7 @@ module.exports = {
         logo: '/assets/images/logo.svg',
         sidebar: tree('pages/en'),
         algolia: {
+            appId: '7L7ITYX3SY',
             apiKey: '7546061da2f6efb05371a61970514021',
             indexName: 'sunshower-docs'
         }
