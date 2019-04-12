@@ -34,8 +34,7 @@ module.exports = {
         logo: '/assets/images/logo.svg',
         sidebar: tree('pages/en')
     },
-    dest: 'docs',
-    base: '/sunshower-documentation/'
+    dest: 'docs'
 };
 
 
