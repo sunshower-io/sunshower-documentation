@@ -32,9 +32,9 @@ module.exports = {
     description: 'Docs for Sunshower.io',
     themeConfig: {
         logo: '/assets/images/logo.svg',
-        sidebar: tree('docs/en')
+        sidebar: tree('documentation/en')
     },
-    dest: 'build'
+    dest: 'docs'
 };
 
 
