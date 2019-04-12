@@ -34,6 +34,7 @@ module.exports = {
         logo: '/assets/images/logo.svg',
         sidebar: tree('docs/en')
     },
+    dest: 'build'
 };
 
 

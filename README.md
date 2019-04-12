@@ -2,7 +2,7 @@
 home: true
 heroImage: /assets/images/logo.svg
 actionText: Get Started →
-actionLink: /docs/en/
+actionLink: /docs/en/guide/
 description: Beautifully Simple Cloud Management
 features:
 - title: Cost Optimization 

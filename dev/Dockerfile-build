@@ -1,0 +1,10 @@
+FROM node:11.13.0-alpine
+
+
+RUN npm install -g vuepress
+RUN mkdir -p /home/sunshower/documentation
+COPY .vuepress /home/sunshower/documentation
+COPY docs /home/sunshower/documentation
+WORKDIR /home/sunshower/documentation
+RUN vuepress build
+
