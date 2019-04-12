@@ -35,7 +35,7 @@ module.exports = {
         sidebar: tree('pages/en')
     },
     dest: 'docs',
-    base: 'sunshower-documentation'
+    base: '/sunshower-documentation/'
 };
 
 
