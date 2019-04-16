@@ -50,6 +50,7 @@ function tree(root) {
 }
 
 module.exports = {
+    port: 8081,
     title: 'Sunshower.io',
     description: 'Docs for Sunshower.io',
     themeConfig: {
