@@ -2,8 +2,13 @@
 order: 6
 ---
 
-#That one other page with the globe...
+#Dashboard
+The dashboard gives you an at-a-glance summary of your systems and instances:
 
+![dashboard overview](./imgs/dashboard/dashboard-overview.png)
+
+##Cost History
+This graph tracks your spending on EC2 instances, showing both estimated and optimized costs.
 
 ##System count and instance count
 The "system count" card reflects the number of systems you have created during the discovery phase. The 

@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 5
 ---
 # Concepts
 
@@ -66,7 +66,7 @@ Likewise, Azure has at least 4 instances with 2 GB of memory.  Moreover, each in
 to region within the same cloud.
 
 
-## Instance Class/Workload Optimization or "Workload Alignment"
+## Workload Alignment 
 
 One of the most important things Sunshower.io does is align the _workloads_ on _instances_ with _instance classes_.  
 In our workload example, we had a few `moments` (average, 99.9th percentile) 
@@ -82,15 +82,32 @@ Next, we have to consider which `instance` you're currently using to run that wo
 Everyone performing Workload Alignment (probably) has a different mechanism for figuring this out. 
 Anvil, Sunshower.io's Optimizer, has saved our users an average of ~65% and a maximum of 94% when performing workload alignment.
 
+## Cloud Infrastructure
+
+Infrastructure is any hardware or software that a cloud service provider, or "CSP" provides.  Examples can be 
+Load Balancers, Instances, Virtual Private Clouds, IP Addresses, etc.
+
+## Role
+
+A "role" is a notion of identity within Cloud Service Providers.  Examples are:
+
+1. AWS IAM roles
+1. Azure Active Directory roles
 
 
-    
-    
-    
+## Systems
+
+Sunshower allows for several modes of grouping infrastructure together, the highest level mode we call a "System" 
+(think Cloud System or Weather System). Systems are comprised of a collection of Roles (IAM, AD, etc.) and can span
+multiple cloud providers, meaning that you can mix and match credentials from any CSP.  Upon creating a system, Sunshower.io
+will go out and discover whatever infrastructure is associated with the System credentials.
+
+Sunshower.io will automatically convert cloud-provider-specific attributes and operations into a unified model.  One of the
+great things about Sunshower.io is that you can manage infrastructure in different clouds using the exact same workflows, and
+even with the same system.
 
 
-
-
+ 
 
 
 

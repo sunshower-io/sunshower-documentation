@@ -50,8 +50,10 @@ function tree(root) {
 }
 
 module.exports = {
-    title: 'Sunshower.io',
-    description: 'Docs for Sunshower.io',
+    port: 8081,
+    title: 'Sunshower.io Documentation',
+    description: 'Information about cloud computing and the Sunshower.io platform',
+    ga: 'UA-122834065-1',
     themeConfig: {
         logo: '/assets/images/logo.svg',
         sidebar: tree('pages/en'),
