@@ -3,6 +3,14 @@ order: 10
 ---
 # Discovery
 
+During the discovery phase, you will connect your AWS account to the Sunshower platform.
+
+##Step 1:
+
+Click either the "discovery" button or the purple "plus" button under "systems." If this is your first time linking your information, only the "discovery" button will be available to you. 
+
+##Step 2:
+Name your system, give it a brief description, and hit the "next" button in the lower righthand corner.
 
 After you create an account, the first thing you'll want to do is discover a system.  The first page that will be presented
 to you is a call-to-action to discover if you have not previously discovered a system.

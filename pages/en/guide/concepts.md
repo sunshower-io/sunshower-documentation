@@ -21,14 +21,14 @@ and hundreds of configurations to find exactly the right computer at the lowest 
 
 ## Workload
 
-Say that two of your hobbies video editing and reading e-books. Clearly, each of these activities will require different 
+Say that two of your hobbies are video editing and reading e-books. Clearly, each of these activities will require different 
 resources from your computer.  Home computers have highly-variable workloads, which is why 
 people typically own computers that are substantially more powerful than what they need _on average_.  
 In the cloud the reality can be quite different: workloads are frequently pretty predictable.  Say, on average, 
 your database serves ~1000 requests/second, and 1 time-unit in 1000 it serves 10,000 requests/second.
 
 You might measure the CPU, Disk, Memory, and Network utilization for the average case and the 1 in 1000 case and, 
-if you do ou can say a lot about that database workload just from that information.  We call whatever utilization of
+if you do you can say a lot about that database workload just from that information.  We call whatever utilization of
 each of those features, (CPU, Disk, Memory, Network), at each of the measured times, `components` of the `shape` of the workload.
 
 
@@ -42,7 +42,7 @@ An instance is a virtual or physical server hosted on some public cloud.  Differ
 1. Google Cloud calls instances `Virtual Machines`
 
 
-In general, when Sunshower.io publish2es a plugin for a given cloud, it translates their notion of an `instance`, whatever
+In general, when Sunshower.io publishes a plugin for a given cloud, it translates their notion of an `instance`, whatever
 that may be, to _our_ notion of an instance.  So, if you have the Heroku plugin installed, Sunshower.io will manage your Dynos 
 as Sunshower instances.  The goal is that you can manage the notion of a server in the cloud exactly the same way, regardless of which
 cloud it's actually on.
