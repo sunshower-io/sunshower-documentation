@@ -3,7 +3,7 @@ order: 10
 ---
 # Discovery
 
-During the discovery phase, you will connect your AWS account to the sunshower.io app using a secure vault with a password known only to you. These are the steps to make this happen:
+During the discovery phase, you will connect your AWS account to the Sunshower platform.
 
 ##Step 1:
 
