@@ -2,14 +2,14 @@
 order: 4
 ---
 
-#Summary page
+# Optimization Summary
 
-![Summary Page](./imgs/summary/summary-page.png)
-
-##About optimization
+## About optimization
 Each instance card shows whether savings on that instance have been optimized. It will show 
 where the instance was launched, what you will save if you switch regions, and which regions
 will save you money. 
+
+![Summary Page](./imgs/summary/summary-page.png)
 
 ##Memory Utilization and CPU Utilization
 These two features show how much CPU and Memory the machine has allocated versus how much you are using
@@ -34,6 +34,7 @@ The summary page only shows twelve instances at a time. Underneath the twelfth i
 ##Refresh button
 If you have launched or terminated instances, you will need to update your information on the Sunshower platform by refreshing 
 your information on either the topology page or summary page. To do this, hit the platform's refresh button.
+
 
 ![Refresh your information](./imgs/summary/summary-refresh.png)
 
